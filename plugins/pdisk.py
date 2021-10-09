@@ -47,10 +47,10 @@ async def pdisk(bot, message):
             await message.reply_chat_action("typing")
             pdisk = "https://cofilink.com/share-video?videoid="+id      
             await message.reply_photo(
-                photo="https://static10.tgstat.ru/channels/_0/f3/f3218a8a0d195d12e73f6b69e51bbb4f.jpg",
-                caption="**URL:** `"+pdisk+"`\n\n**The PDisk Link Is Below The Provided Link Will Be Uploaded in few minutes.\nThank You**\n\n**@HeimanSupports**",
+                photo="https://telegra.ph/file/7389a320199583a2ac493.jpg",
+                caption="\n**URL:** `"+pdisk+"`\n\n**The PDisk Link Is Below, The Provided Link Will Be Uploaded in few minutes...so be patient\n━━━━━━━━━━━━━━━━━━━━\n⦿ Made With♥️BY @OO7ROBot\n━━━━━━━━━━━━━━━━━━━━**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="🔗 PDisk 🔗", url=f"{pdisk}")]
+                    [ InlineKeyboardButton(text="🔗 PDisk Link", url=f"{pdisk}"), InlineKeyboardButton(text="Channel", url="https://telegram.me/MyTestBotZ")]
                 ])
             )
 
