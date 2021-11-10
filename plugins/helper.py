@@ -61,9 +61,9 @@ So,be Patient 😴😴😴😴"""
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🍿 Source Code 🍿', url='https://github.com/OO7ROBot/Pdisk-Upload-Bot')
+        InlineKeyboardButton('🍿 Source Code 🍿', url='https://t.me/AnnihilusOP')
         ],[
-        InlineKeyboardButton('Channel', url='https://telegram.me/MyTestBotZ'),
+        InlineKeyboardButton('Channel', url='https://telegram.me/MoviZenX'),
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('Close', callback_data='close')
         ]]
